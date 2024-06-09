@@ -257,9 +257,9 @@ const googleIcon = createIcon('https://upload.wikimedia.org/wikipedia/commons/c/
 
 // Dodajemy tekst informacyjny i ikony do kontenera
 iconContainer.appendChild(infoText);
-iconContainer.appendChild(allegroIcon);
 iconContainer.appendChild(ebayIcon);
 iconContainer.appendChild(googleIcon);
+iconContainer.appendChild(allegroIcon);
 
 function createParagraph(text) {
   const paragraph = document.createElement('p');
