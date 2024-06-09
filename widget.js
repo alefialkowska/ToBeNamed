@@ -28,6 +28,7 @@ style.innerHTML = `
     border-radius: 12px 0 0 12px;
     border: 4px solid #FF5A00;
     transition: right 0.3s ease;
+    z-index: 10000;
   }
 
   .widgetWrapper.active {
